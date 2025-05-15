@@ -802,5 +802,10 @@ async def update_continuous_backups(
     return response['ContinuousBackupsDescription']
 
 
-if __name__ == '__main__':
+def main():
+    """Main entry point for the MCP server application."""
     app.run()
+
+
+if __name__ == '__main__':
+    main()
