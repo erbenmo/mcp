@@ -40,7 +40,7 @@ from typing import Any, Dict, List, Literal, Union
 app = FastMCP(
     name='dynamodb-server',
     instructions='The official MCP Server for interacting with AWS DynamoDB',
-    version='0.1.0',
+    version='0.1.1',
 )
 
 
